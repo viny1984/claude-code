@@ -1,0 +1,15 @@
+{
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "mkdir -p \"$HOME/.claude/instagram\" && cp -u \"$CLAUDE_PROJECT_DIR/.claude/instagram/voice.md\" \"$HOME/.claude/instagram/voice.md\""
+          }
+        ]
+      }
+    ]
+  }
+}
