@@ -33,9 +33,17 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 LEX = os.path.join(HERE, "slop.json")
 
 SENT_RE = re.compile(r"[^.!?\n]+[.!?]*")
-WORD_RE = re.compile(r"[A-Za-z']+")
+WORD_RE = re.compile(r"[A-Za-zÀ-ÖØ-öø-ÿ']+")
 CONTRACTIONS = re.compile(r"\b\w+'(?:s|t|re|ve|ll|d|m)\b", re.IGNORECASE)
 PRONOUNS = re.compile(r"\b(i|me|my|mine|we|us|our|you|your)\b", re.IGNORECASE)
+# Spanish has no contractions; person is scored on pronouns alone.
+PRONOUNS_ES = re.compile(r"\b(yo|me|mi|mis|m[ií]o|m[ií]a|conmigo|nosotr[oa]s|nos|nuestr[oa]s?|t[uú]|te|tus|ti|contigo|tuy[oa]s?|usted|ustedes)\b", re.IGNORECASE)
+SPANISH_HINT = re.compile(r"\b(que|de|la|el|los|las|en|para|por|con|una|del|es)\b|[ñáéíóú¿¡]", re.IGNORECASE)
+ENGLISH_HINT = re.compile(r"\b(the|and|of|to|is|that|for|with|you|it)\b", re.IGNORECASE)
+
+
+def is_spanish(text):
+    return len(SPANISH_HINT.findall(text)) > 2 * len(ENGLISH_HINT.findall(text))
 NUMBERS = re.compile(r"\b\d[\d,.]*%?\b|\$\d")
 PROPER = re.compile(r"(?<![.!?]\s)(?<!^)\b[A-Z][a-z]{2,}\b", re.MULTILINE)
 
@@ -138,9 +146,14 @@ def check_voice(text, lex):
             names.append(s["id"])
     bullets = [len(b.split()) for b in re.findall(r"(?m)^\s*[-*•]\s+(.+)$", text)]
     uniform = (len(bullets) >= 3 and statistics.pstdev(bullets) < 1.6)
-    score = (scale(contractions, human=3.0, machine=0.0) * 0.35
-             + scale(person, human=8.0, machine=1.0) * 0.35
-             + clamp(100 - tells * 22) * 0.30)
+    if is_spanish(text):
+        person = len(PRONOUNS_ES.findall(text)) * per100
+        score = (scale(person, human=6.0, machine=1.0) * 0.70
+                 + clamp(100 - tells * 22) * 0.30)
+    else:
+        score = (scale(contractions, human=3.0, machine=0.0) * 0.35
+                 + scale(person, human=8.0, machine=1.0) * 0.35
+                 + clamp(100 - tells * 22) * 0.30)
     if uniform:
         score -= 12
         names.append("uniform-bullets")

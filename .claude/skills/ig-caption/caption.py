@@ -50,6 +50,14 @@ ASKS = [
     (re.compile(r"(?i)\bfollow (?:me|for)\b"), "follow"),
     (re.compile(r"(?i)\blink in (?:my )?bio\b"), "link in bio"),
     (re.compile(r"(?i)\b(?:swipe|tap) (?:through|left|right|for|to)\b"), "swipe or tap"),
+    # Spanish
+    (re.compile(r"(?i)\bcomenta (?:la palabra |\")?[A-Z0-9ÁÉÍÓÚÑ]{2,}\b"), "comment a keyword"),
+    (re.compile(r"(?i)\b(?:escr[ií]beme|m[aá]ndame|env[ií]ame)\b"), "DM me"),
+    (re.compile(r"(?i)\bgu[aá]rd(?:a|alo|ala|ate) (?:este|esta|esto)?"), "save this"),
+    (re.compile(r"(?i)\bcomp[aá]rt(?:e|elo|ela)\b"), "share this"),
+    (re.compile(r"(?i)\bs[ií]gueme\b"), "follow"),
+    (re.compile(r"(?i)\blink en (?:mi )?bio\b"), "link in bio"),
+    (re.compile(r"(?i)\bdesliza\b"), "swipe or tap"),
     (re.compile(r"(?i)\btell me\b|\bwhat would you\b|\bwhich one\b"), "answer a question"),
 ]
 
