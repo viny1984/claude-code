@@ -79,15 +79,34 @@ inferido y conviene confirmarlo.
 ## Pruebas que puedo usar
 
 - +12 años en experiencia de clientes y colaboradores. (Ojo: en algunas
-  piezas dice "+10". Unificar.)
+  piezas dice "+10". Unificar en +12.)
 - +25 proyectos de consultoría CX / EX.
-- Ex Gerente de Consultoría CX & EX en IZO.
-- Sectores: salud, retail, inmobiliaria, telecomunicaciones; hoy, turismo y
-  hotelería en el sur.
-- Ingeniera Comercial, Diplomado en Marketing (U. de Chile), Master en
-  Customer Experience (EOI Madrid).
-- Fundadora de VV Advisory. Vive en Frutillar.
-- {{caso real con un número: qué pasaba, qué se hizo, qué cambió}}
+- Ex Experience Consulting Manager en IZO Chile (2022 en adelante): equipo de
+  consultores, journey mapping, madurez y gobierno CX / EX, roadmaps con
+  C-level en retail, salud, banca y minería. Formadora y speaker en IZO
+  Academy para Latinoamérica; charlas en "DEC al Sur" y XM de Qualtrics.
+- **Caso inmobiliaria (CX Manager, 2021-2022):** creó el área de experiencia
+  desde cero, construyó el journey y llevó el **NPS postventa de -20 a +1**.
+  Rediseñó la entrega de punta a punta e implementó el primer programa de
+  voz del cliente de la empresa.
+- **Caso salud (CX Lead en una isapre, 2019-2021):** diseñó y lanzó **5
+  nuevos journeys** del afiliado, mantuvo el **NPS positivo** toda su
+  gestión en una industria difícil y logró que el **NPS entrara como KPI
+  oficial en las metas de los gerentes**.
+- Antes: Scrum Master CX en telecomunicaciones (2017-2019), Project Manager
+  CX en IZO España (2016-2017), Product Manager CX (2013-2016).
+- Sectores: seguros, salud, inmobiliaria, retail, banca, minería,
+  telecomunicaciones; hoy, turismo y hotelería en el sur.
+- Ingeniera Comercial (U. Metropolitana, Caracas), Diploma en Marketing
+  Decisional (U. de Chile), Master en Customer Experience (EOI Madrid),
+  Certificado Profesional CX (DEC Chile), Formadora Experta CX & EX (IZO).
+- Multicultural: venezolana de nacimiento, española de sangre y chilena de
+  corazón. Fundadora de VV Advisory. Vive en Frutillar.
+- Herramientas: journey mapping, Design Thinking / HCD, NPS / CSAT / CES,
+  Qualtrics, Miro, IA.
+- Para publicar casos con nombre de empresa (Echeverría Izquierdo,
+  Cruzblanca, Entel): confirmar con ella. Por defecto, "una inmobiliaria",
+  "una isapre".
 
 ## El llamado a la acción
 
