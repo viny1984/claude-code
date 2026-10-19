@@ -72,14 +72,14 @@ inferido y conviene confirmarlo.
   explícito del cliente. Hoy aplica a Hotel Bellavista (propuesta en curso):
   nada de su nombre, montos en UF, fechas ni detalles del proyecto. Se puede
   hablar del tipo de trabajo ("un hotel del sur") solo si ella lo aprueba.
-- **Empleadores anteriores:** mencionar IZO solo como trayectoria, nunca
-  datos de sus clientes.
+- **Empresas:** no se nombra ninguna en publicaciones, ni empleadores ni
+  clientes. Los nombres de abajo son solo contexto interno.
 - **Resultados de casos:** solo con un dato real y su fuente. Nunca inventados.
 
 ## Pruebas que puedo usar
 
-- +12 años en experiencia de clientes y colaboradores. (Ojo: en algunas
-  piezas dice "+10". Unificar en +12.)
+- **Desde 2013 trabajando en experiencia** de clientes y colaboradores.
+  Usar "desde 2013" (o "+13 años" en 2026), no "+10" ni "+12".
 - +25 proyectos de consultoría CX / EX.
 - Ex Experience Consulting Manager en IZO Chile (2022 en adelante): equipo de
   consultores, journey mapping, madurez y gobierno CX / EX, roadmaps con
@@ -104,16 +104,13 @@ inferido y conviene confirmarlo.
   corazón. Fundadora de VV Advisory. Vive en Frutillar.
 - Herramientas: journey mapping, Design Thinking / HCD, NPS / CSAT / CES,
   Qualtrics, Miro, IA.
-- Para publicar casos con nombre de empresa (Echeverría Izquierdo,
-  Cruzblanca, Entel): confirmar con ella. Por defecto, "una inmobiliaria",
-  "una isapre".
+- **Nunca nombrar empresas** (ni empleadores ni clientes). Siempre
+  genérico: "una inmobiliaria del sector", "una isapre", "una empresa de
+  telecomunicaciones", "una consultora internacional de experiencia".
 
 ## El llamado a la acción
 
 - **CTA principal:** "Escríbeme por DM y conversemos."
-- **Palabra clave para comentar:** {{por definir, por ejemplo VIAJE o
-  RETORNO}}
-- **Qué recibe quien la comenta:** {{por definir, por ejemplo una plantilla
-  del viaje del cliente}}
+- **Palabra clave para comentar:** no usa. El cierre es siempre por DM.
 - **Adónde va el link:** {{por definir; LinkedIn
   linkedin.com/in/vianneyvillamediana o QR de contacto}}
